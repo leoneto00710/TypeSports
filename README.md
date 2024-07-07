@@ -1,4 +1,4 @@
-# TypeSports Loja virtual de roupas e acessórios 
+# TypeSports - Loja virtual de roupas e acessórios.
 
 ## Tecnologias utilizadas 
 <ul> 
