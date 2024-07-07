@@ -1,0 +1,90 @@
+@import url(./src/variables.css);
+
+@import url(./src/anim.css);
+
+@import url(./src/tnb.css);
+
+@import url(./src/footer.css);
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot .tittle{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.price{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.text span{
+    align-self: flex-end;
+}
+
+.bigcard img{
+    width: 400px;
+}
+
+.lilcard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lilcard-list{
+    display: flex;
+    gap: 50px;
+}
+
+.lilcard img{
+    width: 200px;
+}
+
+.lilcard .name{
+    max-width: 200px;
+    font-size: 17px;
+}
+
+.lilcard .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.buy .price{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy ul{
+    display: flex;
+    gap: 10px;
+}
+
+.buy i{
+    transition: all 0.4s;
+}
+
+.buy i:hover{
+    color: var(--red);
+}

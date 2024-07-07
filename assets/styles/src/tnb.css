@@ -1,0 +1,74 @@
+.mobile-tnb{
+    display: none;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.logo h1{
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.top-nav-menu{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.top-nav-menu li{
+    transition: all 0.4s;
+}
+
+.top-nav-menu li:hover{
+    transform: translateY(2.5px);
+}
+
+.top-nav-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    gap: 20px;
+}
+
+.top-nav-icons i{
+    font-size: 25px;
+    transition: all 0.4s;
+}
+
+.top-nav-icons a:hover{
+    color: var(--red);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a{
+    background:var(--black);
+    color: var(--white);
+    padding: 2px 15px;
+}
+
+nav ul li{
+    transition: all 0.4s;
+}
+
+nav ul li:hover{
+    transform: translateY(2.5px);
+}
+

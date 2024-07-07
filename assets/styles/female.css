@@ -1,0 +1,17 @@
+@import url(./src/variables.css);
+
+@import url(./src/anim.css);
+
+@import url(./src/tnb.css);
+
+@import url(./src/footer.css);
+
+@import url(./src/card-container.css);
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+

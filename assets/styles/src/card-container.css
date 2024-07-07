@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
+
+.card img{
+    width: 200px;
+}
+
+.card .name{
+    max-width: 200px;
+    font-size: 17px;
+}
+
+.card .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.buy .price{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy ul{
+    display: flex;
+    gap: 10px;
+}
+
+.buy i{
+    transition: all 0.4s;
+}
+
+.buy i:hover{
+    color: var(--red);
+}
+
+@media (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 250px;
+    }
+    
+    .card img{
+        width: 150px;
+    }
+    
+    .card .name{
+        max-width: 200px;
+        font-size: 14px;
+    }
+    
+    .card .text{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .buy .price{
+        background-color: var(--black);
+        color: var(--white);
+        padding: 3px 3px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .buy{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .buy ul{
+        display: flex;
+        gap: 5px;
+    }
+    
+    .buy i{
+        transition: all 0.4s;
+    }
+    
+    .buy i:hover{
+        color: var(--red);
+    }
+}
