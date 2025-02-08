@@ -1,66 +1,90 @@
 @import url(./src/variables.css);
 
-body{
-    background-color: rgb(255, 255, 255);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+body {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
-.text{
-    width: 50%;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+.title {
+  max-width: 30rem;
 }
 
-.nome input{
-    padding: 5px 100px 5px 10px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-.email input{
-    padding: 5px 100px 5px 10px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+.nome input {
+  padding: 5px 100px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-.msg textarea{
-    padding: 5px 100px 100px 20px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-    resize: none;
+.email input {
+  padding: 5px 100px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-.submit input{
-    border-radius: 5px;
-    padding: 5px 10px;
-    border: none;
-    background:var(--white);
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-
-    transition: all 0.4s;
+.msg textarea {
+  padding: 5px 100px 100px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  resize: none;
 }
 
-.submit input:hover{
-    
-    background-color: var(--blue);
-    color: var(--white);
+.submit input {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  background: var(--white);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+
+  transition: all 0.4s;
 }
 
-.sex, .intr{
-    display: flex;
-    gap: 10px;
+.submit input:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.sex,
+.intr {
+  display: flex;
+  gap: 10px;
+}
+
+.go-back-btn {
+  position: absolute;
+  bottom: 2rem;
+  background-color: rgba(0, 0, 0, 1);
+  color: var(--white);
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  transition: all 0.4s;
+}
+
+.go-back-btn:hover {
+  background-color: var(--white);
+  color: rgba(0, 0, 0, 1);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
